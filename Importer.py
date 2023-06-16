@@ -43,7 +43,7 @@ def get_latest_videos(channel_id_array, api_key):
         return None
     
 def open_video(video_id):
-    webbrowser.open(f'http://youtube.com/watch?v={video_id}')
+    webbrowser.open(f'http://youtube.com/watch?v={video_id}&autoplay=0')
 
 def is_video_new(video_id):
     try:  
